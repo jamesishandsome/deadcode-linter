@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "ghost-buster",
+      "name": "deadcode-linter",
       "dependencies": {
         "@types/css-tree": "^2.3.11",
         "@types/minimatch": "^6.0.0",

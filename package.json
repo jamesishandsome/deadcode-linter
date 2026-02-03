@@ -6,21 +6,21 @@
     "cleanup",
     "css-analysis",
     "dead-code",
-    "ghost-buster",
     "javascript",
+    "lint",
     "tree-shaking",
     "typescript",
     "unused-exports"
   ],
-  "homepage": "https://github.com/your-username/ghost-buster#readme",
+  "homepage": "https://github.com/your-username/deadcode-linter#readme",
   "bugs": {
-    "url": "https://github.com/your-username/ghost-buster/issues"
+    "url": "https://github.com/your-username/deadcode-linter/issues"
   },
   "license": "MIT",
-  "author": "Ghost Buster Team",
+  "author": "James Hu",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/ghost-buster.git"
+    "url": "git+https://github.com/your-username/deadcode-linter.git"
   },
   "bin": {
     "deadcode-linter": "./dist/cli.js"

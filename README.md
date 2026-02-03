@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
-`deadcode-linter` (formerly Ghost-Buster) is a powerful tool designed to solve the problem of source code bloat that Tree-shaking cannot address. It goes beyond simple variable usage analysis by performing **Cross-file Reachability Analysis** and **CSS-JS Linkage Detection**.
+`deadcode-linter` is a powerful tool designed to solve the problem of source code bloat that Tree-shaking cannot address. It goes beyond simple variable usage analysis by performing **Cross-file Reachability Analysis** and **CSS-JS Linkage Detection**.
 
 ## ✨ Features
 
