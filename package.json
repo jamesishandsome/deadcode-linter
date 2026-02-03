@@ -12,15 +12,15 @@
     "typescript",
     "unused-exports"
   ],
-  "homepage": "https://github.com/your-username/deadcode-linter#readme",
+  "homepage": "https://github.com/jamesishandsome/deadcode-linter#readme",
   "bugs": {
-    "url": "https://github.com/your-username/deadcode-linter/issues"
+    "url": "https://github.com/jamesishandsome/deadcode-linter/issues"
   },
   "license": "MIT",
   "author": "James Hu",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/deadcode-linter.git"
+    "url": "git+https://github.com/jamesishandsome/deadcode-linter.git"
   },
   "bin": {
     "deadcode-linter": "./dist/cli.js"

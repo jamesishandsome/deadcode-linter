@@ -2,6 +2,8 @@
 
 > **Dead Code & Redundant Logic Scanner for Modern JS/TS Projects**
 
+[English](./README.md) | [简体中文](./README_zh-CN.md)
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
@@ -77,6 +79,17 @@ deadcode-linter prune
 ## 🛠️ Configuration
 
 `deadcode-linter` automatically detects entry points from your `package.json` (`main`, `module`, `bin`). You can override this with the `--entry` flag.
+
+## 🗺️ Roadmap
+
+We have ambitious plans to make `deadcode-linter` the standard for keeping codebases clean:
+
+- [ ] **Vue / Svelte Support**: Parse `.vue` and `.svelte` files for usage analysis.
+- [ ] **Advanced Configuration**: Support for `deadcode.config.ts` for fine-grained control.
+- [ ] **Ignore Comments**: Allow `// deadcode-ignore` to suppress false positives.
+- [ ] **CI Integration**: Github Actions reporter and fail-on-error modes.
+- [ ] **Visual Report**: Generate HTML reports with dependency graphs.
+- [ ] **Plugin System**: Allow custom parsers and rules.
 
 ## 🤝 Contributing
 
