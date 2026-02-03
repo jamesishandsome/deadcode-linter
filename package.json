@@ -1,0 +1,67 @@
+{
+  "name": "deadcode-linter",
+  "version": "1.0.0",
+  "description": "Dead code and redundant logic scanner for modern JS/TS projects. Detects unreachable files, unused exports, and dead CSS classes.",
+  "keywords": [
+    "cleanup",
+    "css-analysis",
+    "dead-code",
+    "ghost-buster",
+    "javascript",
+    "tree-shaking",
+    "typescript",
+    "unused-exports"
+  ],
+  "homepage": "https://github.com/your-username/ghost-buster#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/ghost-buster/issues"
+  },
+  "license": "MIT",
+  "author": "Ghost Buster Team",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/ghost-buster.git"
+  },
+  "bin": {
+    "deadcode-linter": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "main": "./dist/cli.js",
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "build": "tsup src/cli.ts --format esm --clean --minify",
+    "lint": "oxlint",
+    "lint:ts": "oxlint --type-aware --type-check",
+    "fmt": "oxfmt",
+    "prepublishOnly": "bun run build"
+  },
+  "dependencies": {
+    "@types/css-tree": "^2.3.11",
+    "@types/minimatch": "^6.0.0",
+    "@types/prompts": "^2.4.9",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "css-tree": "^3.1.0",
+    "glob": "^13.0.0",
+    "lightningcss": "^1.31.1",
+    "minimatch": "^10.1.1",
+    "oxc-parser": "^0.112.0",
+    "oxc-resolver": "^11.17.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "oxfmt": "^0.28.0",
+    "oxlint": "^1.43.0",
+    "oxlint-tsgolint": "^0.11.4",
+    "tsup": "^8.5.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
