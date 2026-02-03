@@ -34,6 +34,7 @@
   "main": "./dist/cli.js",
   "scripts": {
     "start": "bun run src/cli.ts",
+    "test": "bun test",
     "build": "tsup src/cli.ts --format esm --clean --minify",
     "lint": "oxlint",
     "lint:ts": "oxlint --type-aware --type-check",
